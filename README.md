@@ -15,12 +15,9 @@ Approach :
   
   1. Calculate how many matches won by MI team.
   2. Calculate In how many matches, captain scored >= 30 runs.
-  3. Prepare confusion matrix (contingency table)
-        >=30  <30
-  Won   ac    bc
-  Loss  ad    bd
-  
+  3. Prepare confusion matrix (contingency table)  
   4. prob(winning | cap_run >= 30) = ac / (ac + ad) 
+  Note : what is ac,ad can be found in code file. Please refer R code file.
   
   That's it.
   
